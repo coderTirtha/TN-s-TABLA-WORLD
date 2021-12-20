@@ -137,6 +137,7 @@ nav ul {
 .banner-image img {
     width: 300px;
     border-radius: 100%;
+    box-shadow: 1px 1px 15px black;
 }
 
 .banner-text {
@@ -391,6 +392,8 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
 }
 
 .contact-section ul li {
@@ -402,7 +405,7 @@ nav ul {
 }
 
 .contact-section li:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .fa-facebook,
@@ -491,4 +494,63 @@ nav ul {
 
 .footer-menu a {
     color: white;
+}
+
+.dark-mode {
+    color: white;
+}
+
+.dark-mode a {
+    color: white;
+}
+
+.banner-section1 {
+    background-color: #cf4c00;
+}
+
+.about-section1 {
+    background-color: #a33c00;
+}
+
+.executive-section1 {
+    background-color: #802f00;
+}
+
+.gallery-section1 {
+    background-color: #551f00;
+}
+
+.videos-section1 {
+    background-color: #381500;
+}
+
+.contact-section1 {
+    background-color: #240e00;
+    color: white;
+}
+
+.contact-section1 ul li {
+    color: white;
+    border: 1px solid white;
+}
+
+.footer-section1 {
+    background-color: #0e0500;
+}
+
+.menu-items-section1 {
+    display: block;
+}
+
+.menu-items-section1 li {
+    border: 1px solid white;
+}
+
+.menu-items-section1 li:hover {
+    background-color: #ffa088;
+    color: black;
+}
+
+.settings-menu1 {
+    border: 1px solid white;
 }
